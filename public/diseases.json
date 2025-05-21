@@ -1,0 +1,809 @@
+{
+    "diseases": [
+      {
+        "name": "Migraine",
+        "symptoms": ["headache", "nausea", "sensitivity to light"],
+        "medication": ["Ibuprofen", "Sumatriptan"],
+        "description": "A neurological condition characterized by intense, debilitating headaches."
+      },
+      {
+        "name": "Common Cold",
+        "symptoms": ["cough", "sneezing", "runny nose"],
+        "medication": ["Paracetamol", "Decongestants"],
+        "description": "A viral infection of the upper respiratory tract."
+      },
+      {
+        "name": "Bronchitis",
+        "symptoms": ["cough", "mucus production", "fatigue"],
+        "medication": ["Amoxicillin", "Cough Syrup"],
+        "description": "Inflammation of the bronchial tubes, often following a respiratory infection."
+      },
+      {
+        "name": "Flu",
+        "symptoms": ["fever", "chills", "muscle aches"],
+        "medication": ["Oseltamivir", "Rest"],
+        "description": "An infectious respiratory illness caused by influenza viruses."
+      },
+      {
+        "name": "COVID-19",
+        "symptoms": ["fever", "cough", "shortness of breath"],
+        "medication": ["Remdesivir", "Dexamethasone"],
+        "description": "A contagious disease caused by the SARS-CoV-2 virus."
+      },
+      {
+        "name": "Diabetes",
+        "symptoms": ["frequent urination", "increased thirst", "unexplained weight loss"],
+        "medication": ["Metformin", "Insulin"],
+        "description": "A chronic condition that affects how the body processes blood sugar (glucose)."
+      },
+      {
+        "name": "Hypertension",
+        "symptoms": ["headache", "shortness of breath", "nosebleeds"],
+        "medication": ["Amlodipine", "Lisinopril"],
+        "description": "A condition in which the force of the blood against the artery walls is too high."
+      },
+      {
+        "name": "Asthma",
+        "symptoms": ["wheezing", "shortness of breath", "chest tightness"],
+        "medication": ["Albuterol", "Inhaled corticosteroids"],
+        "description": "A condition in which your airways narrow and swell and may produce extra mucus."
+      },
+      {
+        "name": "Allergies",
+        "symptoms": ["sneezing", "itching", "runny nose"],
+        "medication": ["Antihistamines", "Nasal sprays"],
+        "description": "An immune system response to a foreign substance that's not typically harmful to your body."
+      },
+      {
+        "name": "Depression",
+        "symptoms": ["persistent sadness", "loss of interest", "fatigue"],
+        "medication": ["Fluoxetine", "Sertraline"],
+        "description": "A mood disorder that causes a persistent feeling of sadness and loss of interest."
+      },
+      {
+        "name": "Anxiety",
+        "symptoms": ["excessive worry", "restlessness", "fatigue"],
+        "medication": ["Diazepam", "Citalopram"],
+        "description": "A mental health disorder characterized by feelings of worry or fear that are strong enough to interfere with one's daily activities."
+      },
+      {
+        "name": "Schizophrenia",
+        "symptoms": ["hallucinations", "delusions", "disorganized thinking"],
+        "medication": ["Risperidone", "Olanzapine"],
+        "description": "A serious mental disorder in which people interpret reality abnormally."
+      },
+      {
+        "name": "Bipolar Disorder",
+        "symptoms": ["manic episodes", "depressive episodes", "mood swings"],
+        "medication": ["Lithium", "Lamotrigine"],
+        "description": "A disorder associated with episodes of mood swings ranging from depressive lows to manic highs."
+      },
+      {
+        "name": "Osteoarthritis",
+        "symptoms": ["joint pain", "stiffness", "swelling"],
+        "medication": ["Ibuprofen", "Naproxen"],
+        "description": "A type of arthritis that occurs when flexible tissue at the ends of bones wears down."
+      },
+      {
+        "name": "Rheumatoid Arthritis",
+        "symptoms": ["joint pain", "swelling", "morning stiffness"],
+        "medication": ["Methotrexate", "Hydroxychloroquine"],
+        "description": "A chronic inflammatory disorder affecting many joints, including those in the hands and feet."
+      },
+      {
+        "name": "Gout",
+        "symptoms": ["intense joint pain", "redness", "swelling"],
+        "medication": ["Allopurinol", "Colchicine"],
+        "description": "A form of arthritis characterized by severe pain, redness, and tenderness in joints."
+      },
+      {
+        "name": "Lupus",
+        "symptoms": ["fatigue", "joint pain", "rash"],
+        "medication": ["Hydroxychloroquine", "Prednisone"],
+        "description": "An inflammatory disease caused when the immune system attacks its own tissues."
+      },
+      {
+        "name": "Psoriasis",
+        "symptoms": ["red patches of skin", "itching", "scaling"],
+        "medication": ["Topical corticosteroids", "Methotrexate"],
+        "description": "A skin disease marked by red, itchy, scaly patches."
+      },
+      {
+        "name": "Eczema",
+        "symptoms": ["itching", "red rash", "dry skin"],
+        "medication": ["Hydrocortisone cream", "Antihistamines"],
+        "description": "A condition that makes your skin red and itchy."
+      },
+      {
+        "name": "Chickenpox",
+        "symptoms": ["itchy rash", "fever", "fatigue"],
+        "medication": ["Calamine lotion", "Antihistamines"],
+        "description": "A highly contagious viral infection causing an itchy, blister-like rash on the skin."
+      },
+      {
+        "name": "Measles",
+        "symptoms": ["rash", "fever", "cough"],
+        "medication": ["Vitamin A", "Acetaminophen"],
+        "description": "A viral infection that's serious for small children but is easily preventable by a vaccine."
+      },
+      {
+        "name": "Mumps",
+        "symptoms": ["swollen salivary glands", "fever", "headache"],
+        "medication": ["Ibuprofen", "Acetaminophen"],
+        "description": "A viral infection that affects the salivary glands that's preventable by a vaccine."
+      },
+      {
+        "name": "Rubella",
+        "symptoms": ["rash", "fever", "swollen lymph nodes"],
+        "medication": ["Ibuprofen", "Acetaminophen"],
+        "description": "A contagious viral infection preventable by vaccine and best known by its distinctive red rash."
+      },
+      {
+        "name": "Polio",
+        "symptoms": ["paralysis", "fever", "fatigue"],
+        "medication": ["Physical therapy", "Pain relief"],
+        "description": "A virus that may cause paralysis and is easily preventable by the polio vaccine."
+      },
+      {
+        "name": "Tuberculosis",
+        "symptoms": ["coughing", "weight loss", "night sweats"],
+        "medication": ["Isoniazid", "Rifampicin"],
+        "description": "A potentially serious infectious bacterial disease that mainly affects the lungs."
+      },
+      {
+        "name": "HIV/AIDS",
+        "symptoms": ["weight loss", "fever", "night sweats"],
+        "medication": ["Antiretrovirals", "Tenofovir"],
+        "description": "A virus that attacks the body's immune system and, if not treated, can lead to AIDS."
+      },
+      {
+        "name": "Hepatitis B",
+        "symptoms": ["jaundice", "fatigue", "abdominal pain"],
+        "medication": ["Antivirals", "Interferon"],
+        "description": "A serious liver infection caused by the hepatitis B virus that's easily preventable by a vaccine."
+      },
+      {
+        "name": "Hepatitis C",
+        "symptoms": ["jaundice", "fatigue", "joint pain"],
+        "medication": ["Antivirals", "Sofosbuvir"],
+        "description": "An infection caused by a virus that attacks the liver and leads to inflammation."
+      },
+      {
+        "name": "Cholera",
+        "symptoms": ["diarrhea", "dehydration", "vomiting"],
+        "medication": ["Rehydration salts", "Doxycycline"],
+        "description": "A bacterial disease causing severe diarrhea and dehydration, usually spread in water."
+      },
+      {
+        "name": "Typhoid Fever",
+        "symptoms": ["high fever", "weakness", "stomach pain"],
+        "medication": ["Ciprofloxacin", "Azithromycin"],
+        "description": "A bacterial infection due to Salmonella typhi that causes high fever and digestive symptoms."
+      },
+      {
+        "name": "Malaria",
+        "symptoms": ["fever", "chills", "sweats"],
+        "medication": ["Chloroquine", "Artemisinin"],
+        "description": "A mosquito-borne infectious disease affecting humans and other animals."
+      },
+      {
+        "name": "Dengue Fever",
+        "symptoms": ["high fever", "rash", "muscle and joint pain"],
+        "medication": ["Acetaminophen", "Rehydration"],
+        "description": "A mosquito-borne viral infection causing a severe flu-like illness."
+      },
+      {
+        "name": "Zika Virus",
+        "symptoms": ["fever", "rash", "joint pain"],
+        "medication": ["Rest", "Fluids"],
+        "description": "A disease caused by the Zika virus that's spread through mosquito bites."
+      },
+      {
+        "name": "Yellow Fever",
+        "symptoms": ["fever", "chills", "nausea"],
+        "medication": ["Fluids", "Pain relief"],
+        "description": "A viral infection spread by a particular species of mosquito."
+      },
+      {
+        "name": "Lyme Disease",
+        "symptoms": ["rash", "fever", "fatigue"],
+        "medication": ["Doxycycline", "Amoxicillin"],
+        "description": "A tick-borne illness caused by the bacterium Borrelia burgdorferi."
+      },
+      {
+        "name": "Ebola Virus",
+        "symptoms": ["fever", "severe headache", "hemorrhage"],
+        "medication": ["Supportive care", "Zmapp"],
+        "description": "A rare and deadly virus that causes severe bleeding, organ failure, and can lead to death."
+      },
+      {
+        "name": "Meningitis",
+        "symptoms": ["fever", "headache", "stiff neck"],
+        "medication": ["Ceftriaxone", "Vancomycin"],
+        "description": "An inflammation of the membranes (meninges) surrounding your brain and spinal cord."
+      },
+      {
+        "name": "Encephalitis",
+        "symptoms": ["fever", "headache", "confusion"],
+        "medication": ["Acyclovir", "Supportive care"],
+        "description": "An inflammation of the brain, often due to infection."
+      },
+      {
+        "name": "Tetanus",
+        "symptoms": ["muscle stiffness", "difficulty swallowing", "seizures"],
+        "medication": ["Tetanus immunoglobulin", "Metronidazole"],
+        "description": "A serious bacterial infection that causes painful muscle spasms and can lead to death."
+      },
+      {
+        "name": "Rabies",
+        "symptoms": ["fever", "headache", "excessive salivation"],
+        "medication": ["Rabies immunoglobulin", "Vaccine"],
+        "description": "A deadly virus spread to people from the saliva of infected animals."
+      },
+      {
+        "name": "Anthrax",
+        "symptoms": ["fever", "chest discomfort", "shortness of breath"],
+        "medication": ["Ciprofloxacin", "Doxycycline"],
+        "description": "A rare but serious bacterial illness."
+      },
+      {
+        "name": "Syphilis",
+        "symptoms": ["sores", "rash", "fever"],
+        "medication": ["Penicillin", "Doxycycline"],
+        "description": "A bacterial infection usually spread by sexual contact that starts as a painless sore."
+      },
+      {
+        "name": "Gonorrhea",
+        "symptoms": ["painful urination", "discharge", "testicular pain"],
+        "medication": ["Ceftriaxone", "Azithromycin"],
+        "description": "A sexually transmitted bacterial infection that, if untreated, may cause infertility."
+      },
+      {
+        "name": "Chlamydia",
+        "symptoms": ["painful urination", "discharge", "abdominal pain"],
+        "medication": ["Azithromycin", "Doxycycline"],
+        "description": "A common sexually transmitted infection that may not cause symptoms."
+      },
+      {
+        "name": "Trichomoniasis",
+        "symptoms": ["itching", "discharge", "painful urination"],
+        "medication": ["Metronidazole", "Tinidazole"],
+        "description": "A sexually transmitted infection caused by a parasite."
+      },
+      {
+        "name": "Genital Herpes",
+        "symptoms": ["pain", "itching", "sores"],
+        "medication": ["Acyclovir", "Valacyclovir"],
+        "description": "A common sexually transmitted infection marked by genital pain and sores."
+      },
+      {
+        "name": "HPV",
+        "symptoms": ["warts", "itching", "discomfort"],
+        "medication": ["Imiquimod", "Podofilox"],
+        "description": "A viral infection that's passed between people through skin-to-skin contact."
+      },
+      {
+        "name": "Candidiasis",
+        "symptoms": ["itching", "discharge", "redness"],
+        "medication": ["Fluconazole", "Clotrimazole"],
+        "description": "A fungal infection typically on the skin or mucous membranes caused by candida."
+      },
+      {
+        "name": "Mononucleosis",
+        "symptoms": ["fatigue", "fever", "sore throat"],
+        "medication": ["Rest", "Fluids"],
+        "description": "An infectious disease marked by increased numbers of mononuclear leukocytes and enlarged cervical lymph nodes."
+      },
+      {
+        "name": "Pneumonia",
+        "symptoms": ["cough", "fever", "shortness of breath"],
+        "medication": ["Amoxicillin", "Azithromycin"],
+        "description": "An infection that inflames the air sacs in one or both lungs."
+      },
+      {
+        "name": "Tuberculosis",
+        "symptoms": ["coughing", "weight loss", "night sweats"],
+        "medication": ["Isoniazid", "Rifampicin"],
+        "description": "A potentially serious infectious bacterial disease that mainly affects the lungs."
+      },
+      {
+        "name": "Emphysema",
+        "symptoms": ["shortness of breath", "chronic cough", "wheezing"],
+        "medication": ["Bronchodilators", "Steroids"],
+        "description": "A lung condition that causes shortness of breath."
+      },
+      {
+        "name": "Chronic Bronchitis",
+        "symptoms": ["cough", "mucus production", "shortness of breath"],
+        "medication": ["Bronchodilators", "Steroids"],
+        "description": "A form of chronic obstructive pulmonary disease (COPD) characterized by a chronic cough."
+      },
+      {
+        "name": "Lung Cancer",
+        "symptoms": ["cough", "weight loss", "shortness of breath"],
+        "medication": ["Chemotherapy", "Radiation"],
+        "description": "A type of cancer that begins in the lungs."
+      },
+      {
+        "name": "Prostate Cancer",
+        "symptoms": ["difficulty urinating", "blood in urine", "pelvic discomfort"],
+        "medication": ["Surgery", "Radiation"],
+        "description": "A cancer in a man's prostate, a small walnut-sized gland that produces seminal fluid."
+      },
+      {
+        "name": "Breast Cancer",
+        "symptoms": ["lump in breast", "change in shape", "skin changes"],
+        "medication": ["Surgery", "Chemotherapy"],
+        "description": "A cancer that forms in the cells of the breasts."
+      },
+      {
+        "name": "Colorectal Cancer",
+        "symptoms": ["change in bowel habits", "rectal bleeding", "abdominal discomfort"],
+        "medication": ["Surgery", "Chemotherapy"],
+        "description": "A cancer that starts in the colon or the rectum."
+      },
+      {
+        "name": "Melanoma",
+        "symptoms": ["new mole", "change in existing mole", "itching"],
+        "medication": ["Surgery", "Immunotherapy"],
+        "description": "A type of skin cancer that develops from the pigment-producing cells known as melanocytes."
+      },
+      {
+        "name": "Leukemia",
+        "symptoms": ["fever", "fatigue", "easy bruising"],
+        "medication": ["Chemotherapy", "Radiation"],
+        "description": "A cancer of blood-forming tissues, hindering the body's ability to fight infection."
+      },
+      {
+        "name": "Lymphoma",
+        "symptoms": ["swollen lymph nodes", "fatigue", "fever"],
+        "medication": ["Chemotherapy", "Radiation"],
+        "description": "A cancer of the lymphatic system."
+      },
+      {
+        "name": "Salmonellosis",
+        "symptoms": ["diarrhea", "fever", "abdominal cramps", "food poisoning"],
+        "medication": ["Antibiotics (in severe cases)", "Oral rehydration solutions"],
+        "description": "An infection caused by Salmonella bacteria, often through contaminated food or water."
+    },
+    {
+      "name": "Campylobacteriosis",
+      "symptoms": ["diarrhea", "cramps", "fever", "vomiting", "food poisoning"],
+      "medication": ["Antibiotics (in severe cases)", "Oral rehydration solutions"],
+      "description": "An infection caused by Campylobacter bacteria, commonly through undercooked poultry or contaminated water."
+  },
+  {
+    "name": "E. coli Infection",
+    "symptoms": ["severe stomach cramps", "diarrhea (often bloody)", "vomiting", "food poisoning"],
+    "medication": ["Oral rehydration solutions", "Avoidance of antibiotics (as they may worsen symptoms)"],
+    "description": "An infection caused by Escherichia coli bacteria, often through contaminated food or water."
+},
+{
+  "name": "Norovirus Infection",
+  "symptoms": ["diarrhea", "vomiting", "nausea", "stomach pain", "food poisoning"],
+  "medication": ["Oral rehydration solutions", "Rest"],
+  "description": "A highly contagious virus causing gastroenteritis, often spread through contaminated food or surfaces."
+},
+{
+  "name": "Listeriosis",
+  "symptoms": ["fever", "muscle aches", "nausea", "diarrhea", "food poisoning"],
+  "medication": ["Antibiotics"],
+  "description": "A serious infection caused by Listeria bacteria, commonly found in contaminated food such as unpasteurized dairy products."
+},
+{
+  "name": "Alopecia Areata",
+  "symptoms": ["hair loss in small, round patches on the scalp", "hair loss on other parts of the body"],
+  "medication": ["Corticosteroids", "Topical immunotherapy", "Minoxidil"],
+  "description": "An autoimmune disorder that causes hair to fall out in small patches."
+},
+{
+  "name": "Hypothyroidism",
+  "symptoms": ["fatigue", "weight gain", "cold intolerance", "hair loss"],
+  "medication": ["Levothyroxine (synthetic thyroid hormone)"],
+  "description": "A condition in which the thyroid gland doesn't produce enough thyroid hormones."
+},
+{
+  "name": "Hyperthyroidism",
+  "symptoms": ["weight loss", "rapid heartbeat", "anxiety", "hair loss"],
+  "medication": ["Antithyroid medications", "Radioactive iodine", "Beta blockers"],
+  "description": "A condition in which the thyroid gland produces too much thyroid hormone."
+},
+{
+  "name": "Lupus",
+  "symptoms": ["fatigue", "joint pain", "skin rashes", "hair loss"],
+  "medication": ["Nonsteroidal anti-inflammatory drugs (NSAIDs)", "Corticosteroids", "Immunosuppressants"],
+  "description": "An autoimmune disease where the immune system attacks its own tissues, causing widespread inflammation and tissue damage."
+},
+{
+  "name": "Polycystic Ovary Syndrome (PCOS)",
+  "symptoms": ["irregular menstrual cycles", "weight gain", "acne", "hair loss"],
+  "medication": ["Hormonal birth control", "Metformin", "Anti-androgens"],
+  "description": "A hormonal disorder causing enlarged ovaries with small cysts on the outer edges."
+},
+{
+  "name": "Sepsis",
+  "symptoms": ["fever", "chills", "sweating", "rapid heartbeat", "shortness of breath"],
+  "medication": ["Antibiotics", "Intravenous fluids", "Vasopressors"],
+  "description": "A life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs."
+},
+{
+  "name": "Sinusitis",
+  "symptoms": ["congestion", "runny nose", "post-nasal drip", "facial pain", "headache", "cold symptoms"],
+  "medication": ["Decongestants", "Nasal corticosteroids", "Antibiotics (if bacterial)"],
+  "description": "An inflammation or swelling of the tissue lining the sinuses, which can be caused by infections or allergies."
+},
+{
+  "name": "Allergic Rhinitis (Hay Fever)",
+  "symptoms": ["sneezing", "runny or stuffy nose", "itchy eyes", "cold symptoms", "cough"],
+  "medication": ["Antihistamines", "Decongestants", "Nasal corticosteroids"],
+  "description": "An allergic reaction that causes sneezing, congestion, and a runny nose."
+},
+{
+  "name": "Respiratory Syncytial Virus (RSV) Infection",
+  "symptoms": ["runny nose", "decreased appetite", "coughing", "sneezing", "fever", "wheezing"],
+  "medication": ["Supportive care", "Oxygen therapy", "Hydration"],
+  "description": "A common respiratory virus that usually causes mild, cold-like symptoms."
+},
+{
+  "name": "Conjunctivitis (Pink Eye)",
+  "symptoms": ["redness of the eye", "itchy eyes", "tearing", "discharge from the eyes", "gritty feeling"],
+  "medication": ["Antibiotic eye drops (if bacterial)", "Antiviral medication (if viral)", "Antihistamines (if allergic)"],
+  "description": "An inflammation or infection of the conjunctiva, the clear tissue that lines the inside of the eyelid and covers the white part of the eye."
+},
+{
+  "name": "Uveitis",
+  "symptoms": ["redness of the eye", "eye pain", "blurred vision", "light sensitivity", "floaters"],
+  "medication": ["Corticosteroids", "Immunosuppressive drugs", "Antibiotics or antiviral drugs (if infectious)"],
+  "description": "An inflammation of the uvea, the middle layer of the eye, which can cause swelling and damage to eye tissues."
+},
+{
+  "name": "Blepharitis",
+  "symptoms": ["redness of the eyelids", "itchy eyelids", "swollen eyelids", "crusty eyelashes", "burning sensation"],
+  "medication": ["Warm compresses", "Eyelid scrubs", "Antibiotic ointments or drops"],
+  "description": "An inflammation of the eyelids that affects the eyelashes or tear production."
+},
+{
+  "name": "Keratitis",
+  "symptoms": ["redness of the eye", "eye pain", "excess tears or discharge", "blurred vision", "sensitivity to light"],
+  "medication": ["Antibacterial, antifungal, or antiviral eye drops (depending on cause)", "Steroid eye drops"],
+  "description": "An inflammation of the cornea, the clear, dome-shaped tissue on the front of the eye."
+},
+{
+  "name": "Glaucoma",
+  "symptoms": ["redness of the eye", "eye pain", "blurred vision", "halos around lights", "nausea and vomiting"],
+  "medication": ["Eye drops", "Oral medications", "Surgery or laser treatment"],
+  "description": "A group of eye conditions that damage the optic nerve, often due to high eye pressure, leading to vision loss."
+},
+{
+  "name": "Dry Eye Syndrome",
+  "symptoms": ["redness of the eye", "itchy eyes", "burning sensation", "feeling of something in the eye", "blurred vision"],
+  "medication": ["Artificial tears", "Prescription eye drops", "Punctal plugs"],
+  "description": "A condition where the eyes do not produce enough tears or the tears evaporate too quickly, leading to dryness and irritation."
+},
+{
+  "name": "Iritis",
+  "symptoms": ["redness of the eye", "eye pain", "blurred vision", "sensitivity to light", "small or irregular pupil"],
+  "medication": ["Steroid eye drops", "Dilating eye drops"],
+  "description": "An inflammation of the iris, the colored part of the eye, which can cause pain and vision problems."
+},
+{
+  "name": "Otitis Media",
+  "symptoms": ["ear pain", "fever", "hearing loss", "fluid drainage from ear", "irritability"],
+  "medication": ["Antibiotics", "Pain relievers", "Warm compresses"],
+  "description": "An infection of the middle ear, common in children, often following a respiratory infection."
+},
+{
+  "name": "Labyrinthitis",
+  "symptoms": ["ear pain", "dizziness", "hearing loss", "tinnitus (ringing in the ear)", "nausea"],
+  "medication": ["Antibiotics (if bacterial)", "Antiviral drugs (if viral)", "Antihistamines", "Steroids"],
+  "description": "An inner ear infection or inflammation that affects the labyrinth, which can lead to vertigo and hearing loss."
+},
+{
+  "name": "Vitamin B12 Deficiency",
+  "symptoms": ["fatigue", "weakness", "loss of taste", "pale skin", "shortness of breath", "numbness or tingling"],
+  "medication": ["Vitamin B12 supplements", "Dietary changes"],
+  "description": "A deficiency in vitamin B12 can cause a range of symptoms, including neurological issues and taste disturbances."
+},
+{
+  "name": "COVID-19",
+  "symptoms": ["fever", "cough", "shortness of breath", "loss of taste", "loss of smell", "fatigue", "body aches"],
+  "medication": ["Antiviral drugs", "Supportive care", "Symptomatic treatment"],
+  "description": "A viral infection caused by the SARS-CoV-2 virus, affecting the respiratory system and causing a wide range of symptoms."
+},
+{
+  "name": "Oral Thrush (Candidiasis)",
+  "symptoms": ["white patches on the tongue or inner cheeks", "redness", "soreness", "loss of taste", "pain while eating or swallowing"],
+  "medication": ["Antifungal medications", "Mouth rinses", "Oral hygiene"],
+  "description": "A fungal infection in the mouth caused by Candida species, commonly seen in infants, older adults, and immunocompromised individuals."
+},
+{
+  "name": "Aphthous Stomatitis (Canker Sores)",
+  "symptoms": ["small, round, white or yellow sores with a red edge", "pain in the mouth", "difficulty eating or speaking"],
+  "medication": ["Topical treatments", "Mouth rinses", "Pain relievers"],
+  "description": "Small, painful ulcers that occur inside the mouth, often triggered by stress, injury, or certain foods."
+},
+{
+  "name": "Hand, Foot, and Mouth Disease",
+  "symptoms": ["fever", "sore throat", "painful red blisters on the tongue, gums, and inside of the cheeks", "rash on the hands and feet"],
+  "medication": ["Pain relievers", "Topical treatments", "Hydration"],
+  "description": "A contagious viral infection common in young children, characterized by sores in the mouth and a rash on the hands and feet."
+},
+{
+  "name": "Scalp Psoriasis",
+  "symptoms": ["red patches on the scalp", "flaking", "hair loss"],
+  "medication": ["Topical corticosteroids", "Vitamin D analogs", "Phototherapy"],
+  "description": "A common skin disorder that causes raised, reddish, scaly patches, often on the scalp."
+},
+      {
+        "name": "Parkinson's Disease",
+        "symptoms": ["tremor", "slowed movement", "rigid muscles"],
+        "medication": ["Levodopa", "Dopamine agonists"],
+        "description": "A disorder of the central nervous system that affects movement, often including tremors."
+      },
+      {
+        "name": "Alzheimer's Disease",
+        "symptoms": ["memory loss", "confusion", "difficulty thinking"],
+        "medication": ["Donepezil", "Memantine"],
+        "description": "A progressive disease that destroys memory and other important mental functions."
+      },
+      {
+        "name": "Multiple Sclerosis",
+        "symptoms": ["numbness", "tingling", "balance problems"],
+        "medication": ["Interferon beta", "Glatiramer acetate"],
+        "description": "A disease in which the immune system eats away at the protective covering of nerves."
+      },
+      {
+        "name": "Amyotrophic Lateral Sclerosis",
+        "symptoms": ["muscle weakness", "difficulty speaking", "difficulty swallowing"],
+        "medication": ["Riluzole", "Edaravone"],
+        "description": "A nervous system disease that weakens muscles and impacts physical function."
+      },
+      {
+        "name": "Epilepsy",
+        "symptoms": ["seizures", "loss of consciousness", "confusion"],
+        "medication": ["Valproate", "Carbamazepine"],
+        "description": "A disorder in which nerve cell activity in the brain is disturbed, causing seizures."
+      },
+      {
+        "name": "Cerebral Palsy",
+        "symptoms": ["stiff muscles", "uncontrollable movements", "poor coordination"],
+        "medication": ["Muscle relaxants", "Anticonvulsants"],
+        "description": "A group of disorders that affect movement and muscle tone or posture."
+      },
+      {
+        "name": "Stroke",
+        "symptoms": ["sudden numbness", "confusion", "trouble speaking"],
+        "medication": ["Alteplase", "Anticoagulants"],
+        "description": "A condition in which poor blood flow to the brain results in cell death."
+      },
+      {
+        "name": "Myasthenia Gravis",
+        "symptoms": ["muscle weakness", "double vision", "drooping eyelids"],
+        "medication": ["Pyridostigmine", "Prednisone"],
+        "description": "A chronic autoimmune neuromuscular disease that causes weakness in the skeletal muscles."
+      },
+      {
+        "name": "Celiac Disease",
+        "symptoms": ["diarrhea", "bloating", "fatigue"],
+        "medication": ["Gluten-free diet", "Vitamins"],
+        "description": "An immune reaction to eating gluten, a protein found in wheat, barley, and rye."
+      },
+      {
+        "name": "Crohn's Disease",
+        "symptoms": ["abdominal pain", "diarrhea", "weight loss"],
+        "medication": ["Infliximab", "Methotrexate"],
+        "description": "A chronic inflammatory bowel disease that affects the lining of the digestive tract."
+      },
+      {
+        "name": "Ulcerative Colitis",
+        "symptoms": ["diarrhea", "abdominal pain", "rectal bleeding"],
+        "medication": ["Mesalamine", "Infliximab"],
+        "description": "A chronic, inflammatory bowel disease that causes inflammation in the digestive tract."
+      },
+      {
+        "name": "Stress-related Musculoskeletal Pain",
+        "symptoms": ["back pain", "muscle tension", "fatigue", "increased stress levels"],
+        "medication": ["Pain relievers", "Muscle relaxants", "Stress management techniques"],
+        "description": "A musculoskeletal disorder characterized by symptoms such as back pain and muscle tension, often worsened by increased stress levels."
+      },
+      {
+        "name": "Stress-induced Headache Disorder",
+        "symptoms": ["tension-type headache", "migraine", "cluster headache", "increased stress levels"],
+        "medication": ["Pain relievers", "Migraine-specific medications", "Stress management techniques"],
+        "description": "A headache disorder characterized by various types of headaches such as tension-type headaches, migraines, and cluster headaches, often triggered or worsened by increased stress levels."
+      },
+      {
+        "name": "Stress-induced Hypertension",
+        "symptoms": ["elevated blood pressure", "headaches", "anxiety"],
+        "medication": ["Antihypertensive drugs", "Stress management techniques"],
+        "description": "A condition where stress triggers or exacerbates high blood pressure."
+      },
+      {
+        "name": "Stress-related Gastrointestinal Disorder",
+        "symptoms": ["abdominal pain", "bloating", "diarrhea or constipation", "increased stress levels"],
+        "medication": ["Antispasmodics", "Fiber supplements", "Stress management techniques"],
+        "description": "A gastrointestinal disorder characterized by symptoms such as abdominal pain and bloating, often exacerbated by increased stress levels."
+      },
+      {
+        "name": "Anxiety Disorders",
+        "symptoms": ["excessive worrying", "restlessness", "panic attacks"],
+        "medication": ["Antidepressants", "Anti-anxiety medications"],
+        "description": "A group of mental health disorders characterized by feelings of anxiety and fear, often triggered by stress."
+      },
+      {
+        "name": "Irritable Bowel Syndrome",
+        "symptoms": ["abdominal pain", "bloating", "diarrhea"],
+        "medication": ["Loperamide", "Alosetron"],
+        "description": "A common disorder affecting the large intestine."
+      },
+      {
+        "name": "Peptic Ulcer",
+        "symptoms": ["burning stomach pain", "bloating", "heartburn"],
+        "medication": ["Omeprazole", "Amoxicillin"],
+        "description": "Open sores that develop on the inside lining of your stomach and the upper portion of your small intestine."
+      },
+      {
+        "name": "Gallstones",
+        "symptoms": ["sudden pain", "nausea", "vomiting"],
+        "medication": ["Ursodiol", "Pain relief"],
+        "description": "Hardened deposits of digestive fluid that can form in your gallbladder."
+      },
+      {
+        "name": "Pancreatitis",
+        "symptoms": ["upper abdominal pain", "nausea", "vomiting"],
+        "medication": ["Enzyme supplements", "Pain relief"],
+        "description": "Inflammation of the pancreas."
+      },
+      {
+        "name": "Hepatitis A",
+        "symptoms": ["jaundice", "fatigue", "abdominal pain"],
+        "medication": ["Rest", "Fluids"],
+        "description": "A highly contagious liver infection caused by the hepatitis A virus."
+      },
+      {
+        "name": "Hepatitis B",
+        "symptoms": ["jaundice", "fatigue", "abdominal pain"],
+        "medication": ["Antivirals", "Interferon"],
+        "description": "A serious liver infection caused by the hepatitis B virus that's easily preventable by a vaccine."
+      },
+      {
+        "name": "Hepatitis C",
+        "symptoms": ["jaundice", "fatigue", "joint pain"],
+        "medication": ["Antivirals", "Sofosbuvir"],
+        "description": "An infection caused by a virus that attacks the liver and leads to inflammation."
+      },
+      {
+        "name": "Cirrhosis",
+        "symptoms": ["fatigue", "easy bruising", "jaundice"],
+        "medication": ["Diuretics", "Beta blockers"],
+        "description": "Chronic liver damage from a variety of causes leading to scarring and liver failure."
+      },
+      {
+        "name": "Alcoholic Liver Disease",
+        "symptoms": ["jaundice", "fatigue", "abdominal pain"],
+        "medication": ["Abstinence", "Nutritional support"],
+        "description": "Damage to the liver and its function due to alcohol abuse."
+      },
+      {
+        "name": "Kidney Stones",
+        "symptoms": ["severe pain", "nausea", "vomiting"],
+        "medication": ["Pain relievers", "Alpha blockers"],
+        "description": "Hard deposits made of minerals and salts that form inside your kidneys."
+      },
+      {
+        "name": "Chronic Kidney Disease",
+        "symptoms": ["fatigue", "swelling", "urination changes"],
+        "medication": ["ACE inhibitors", "Diuretics"],
+        "description": "The gradual loss of kidney function."
+      },
+      {
+        "name": "Urinary Tract Infection",
+        "symptoms": ["painful urination", "frequent urination", "abdominal pain"],
+        "medication": ["Antibiotics", "Pain relief"],
+        "description": "An infection in any part of your urinary system."
+      },
+      {
+        "name": "Interstitial Cystitis",
+        "symptoms": ["bladder pain", "frequent urination", "pelvic pain"],
+        "medication": ["Pentosan polysulfate sodium", "Pain relief"],
+        "description": "A chronic condition causing bladder pressure, bladder pain and sometimes pelvic pain."
+      },
+      {
+        "name": "Benign Prostatic Hyperplasia",
+        "symptoms": ["frequent urination", "difficulty urinating", "weak stream"],
+        "medication": ["Finasteride", "Tamsulosin"],
+        "description": "Age-associated prostate gland enlargement that can cause urination difficulty."
+      },
+      {
+        "name": "Prostatitis",
+        "symptoms": ["painful urination", "difficulty urinating", "pelvic pain"],
+        "medication": ["Antibiotics", "Alpha blockers"],
+        "description": "Swelling and inflammation of the prostate gland."
+      },
+      {
+        "name": "Urinary Incontinence",
+        "symptoms": ["leakage", "urgency", "frequent urination"],
+        "medication": ["Anticholinergics", "Mirabegron"],
+        "description": "Loss of bladder control."
+      },
+      {
+        "name": "Hypothyroidism",
+        "symptoms": ["fatigue", "weight gain", "cold intolerance"],
+        "medication": ["Levothyroxine"],
+        "description": "A condition in which the thyroid gland doesn't produce enough thyroid hormone."
+      },
+      {
+        "name": "Hyperthyroidism",
+        "symptoms": ["weight loss", "rapid heartbeat", "nervousness"],
+        "medication": ["Methimazole", "Propranolol"],
+        "description": "The overproduction of a hormone by the butterfly-shaped gland in the neck (thyroid)."
+      },
+      {
+        "name": "Diabetes Type 1",
+        "symptoms": ["increased thirst", "frequent urination", "extreme hunger"],
+        "medication": ["Insulin", "Diet management"],
+        "description": "A chronic condition in which the pancreas produces little or no insulin."
+      },
+      {
+        "name": "Diabetes Type 2",
+        "symptoms": ["increased thirst", "frequent urination", "blurred vision"],
+        "medication": ["Metformin", "Diet management"],
+        "description": "A chronic condition that affects the way the body processes blood sugar (glucose)."
+      },
+      {
+        "name": "Cushing's Syndrome",
+        "symptoms": ["weight gain", "fatty deposits", "purple stretch marks"],
+        "medication": ["Ketoconazole", "Mitotane"],
+        "description": "A condition that occurs from exposure to high cortisol levels for a long time."
+      },
+      {
+        "name": "Addison's Disease",
+        "symptoms": ["fatigue", "weight loss", "low blood pressure"],
+        "medication": ["Hydrocortisone", "Fludrocortisone"],
+        "description": "A disorder in which the adrenal glands don't produce enough hormones."
+      },
+      {
+        "name": "Polycystic Ovary Syndrome",
+        "symptoms": ["irregular periods", "excess hair growth", "acne"],
+        "medication": ["Birth control pills", "Metformin"],
+        "description": "A hormonal disorder causing enlarged ovaries with small cysts on the outer edges."
+      },
+      {
+        "name": "Endometriosis",
+        "symptoms": ["pain", "infertility", "heavy periods"],
+        "medication": ["Pain relief", "Hormonal therapy"],
+        "description": "A disorder in which tissue similar to the tissue that normally lines the inside of your uterus grows outside your uterus."
+      },
+      {
+        "name": "Rheumatoid Arthritis",
+        "symptoms": ["joint pain", "swelling", "stiffness"],
+        "medication": ["Methotrexate", "Hydroxychloroquine"],
+        "description": "A chronic inflammatory disorder affecting many joints, including those in the hands and feet."
+      },
+      {
+        "name": "Osteoarthritis",
+        "symptoms": ["pain", "stiffness", "swelling"],
+        "medication": ["Acetaminophen", "NSAIDs"],
+        "description": "A type of arthritis that occurs when flexible tissue at the ends of bones wears down."
+      },
+      {
+        "name": "Gout",
+        "symptoms": ["severe pain", "redness", "swelling"],
+        "medication": ["Allopurinol", "Colchicine"],
+        "description": "A form of arthritis characterized by severe pain, redness, and tenderness in joints."
+      },
+      {
+        "name": "Lupus",
+        "symptoms": ["fatigue", "joint pain", "rash"],
+        "medication": ["Hydroxychloroquine", "Prednisone"],
+        "description": "An inflammatory disease caused when the immune system attacks its own tissues."
+      },
+      {
+        "name": "Fibromyalgia",
+        "symptoms": ["widespread pain", "fatigue", "sleep disturbances"],
+        "medication": ["Duloxetine", "Pregabalin"],
+        "description": "A disorder characterized by widespread musculoskeletal pain accompanied by fatigue, sleep, memory, and mood issues."
+      }
+    ]
+  }
+  
