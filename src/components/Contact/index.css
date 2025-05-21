@@ -1,0 +1,73 @@
+/* src/Contact.css */
+.emergency-contacts-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.accordion-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-section {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-section:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section.active {
+  transform: scale(1.05);
+}
+
+.accordion-title {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #090909;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.accordion-title:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.contact-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.contact-section li {
+  margin: 5px 0;
+}
+
+.contact-section a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

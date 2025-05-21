@@ -1,0 +1,11 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Adjust the height as per your design needs */
+}
+
+.not-found-img {
+  width: 400px; /* Adjust the image width as per your design needs */
+}

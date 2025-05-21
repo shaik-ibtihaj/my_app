@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.app-container {
+  width: 1000px;
+  height: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  background-image: url('https://i.pinimg.com/736x/d4/88/51/d488515237cfeda26b43b8ded2937358.jpg');
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.heading {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f9f9f9;
+}
+
+.input-container,
+.select-container,
+.age-container {
+  margin-bottom: 20px;
+}
+.color{
+  color: #f9f9f9;
+}
+
+.input-container label,
+.select-container label,
+.age-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-container select,
+.select-container select,
+.age-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button {
+  background-color: #11dddd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00ff88;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+.disease-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+
+.disease-card h2 {
+  margin-top: 0;
+  color: #0d0d0d;
+}
+
+.disease-card p {
+  margin: 5px 0;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

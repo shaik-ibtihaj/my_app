@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  background-color: #f7f8fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.logo-icon {
+  margin-right: 10px;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-content-lg {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-image {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #101110;
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  margin-right: 8px;
+}
+
+.nav-link:hover {
+  color: #101011;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.blog-title {
+  font-family: 'Bree Serif', serif;
+  color: #0f0f0f;
+  font-size: 24px;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.logout-btn {
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 8px 15px;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #171818;
+}
+
+.nav-content-sm {
+  display: none;
+}
+
+.logo-logout-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.logout-mobile-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-items-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #d1d1d1;
+  margin: 10px 0;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  color: #1d1e1f;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #004bb7;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-content-lg {
+    display: flex;
+  }
+
+  .nav-content-sm {
+    display: none;
+  }
+
+  .blog-title {
+    font-size: 34px;
+  }
+  .nav-image {
+    height: 40px;
+    width: 40px;
+  }
+
+  .nav-menu li {
+    margin-right: 20px;
+  }
+}

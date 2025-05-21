@@ -1,0 +1,107 @@
+/* CSS for Medical Education Component */
+
+.medication-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.medication-heading {
+  font-family: 'Arial';
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+}
+
+.medication-paragraph {
+  font-family: 'Arial';
+  font-size: 20px;
+  text-align: center;
+  color: #555555;
+}
+
+.videos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.accordion-item {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.accordion-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.accordion-heading {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.video-heading {
+  font-family: 'Arial';
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.video-desc {
+  font-family: 'Arial';
+  color: black;
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.video-styles {
+  height: 250px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.for-more {
+  color: black;
+  font-family: 'Arial';
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .video-heading {
+    font-size: 20px;
+  }
+
+  .video-desc {
+    font-size: 16px;
+  }
+
+  .video-styles {
+    height: 200px;
+    width: 450px;
+    margin-bottom: 10px;
+  }
+
+  .accordion-item {
+    width: 90%;
+  }
+}
